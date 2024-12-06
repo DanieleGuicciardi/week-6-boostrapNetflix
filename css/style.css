@@ -12,3 +12,39 @@ header, .navbar, .dropdown-menu {
 }
 
 /* aggiungere classe div a destra */
+
+
+
+
+/* seconda pagina */
+.profile-box {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-control, .form-select {
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.form-control {
+  background-color: grey;
+  border-radius: 0;
+  margin-left: 1em;
+  
+}
+
+.form-control::placeholder {
+  color: white;
+  background-color: grey;
+  font-size: large;
+  font-weight: 600;
+}
+
+.editProfile {
+  border-bottom: 1px solid grey;
+}
