@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: white; 
+}
+
+header, .navbar, .dropdown-menu {
+  background-color: black !important; 
+}
+
+.navbar .navbar-nav .nav-link, .dropdown-item{
+  color: white; 
+}
+
+/* aggiungere classe div a destra */
