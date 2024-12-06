@@ -1,14 +1,55 @@
 body {
   background-color: black;
-  color: white; 
+  color: white;
+  margin-right: 3em; 
+  margin-left: 3em;
 }
 
 header, .navbar, .dropdown-menu {
   background-color: black !important; 
 }
 
+.navbar {
+  margin-bottom: 1em;
+}
+
+h1 {
+  margin-right: 1em;
+}
+
+.dropdown-toggle {
+  background-color: black;
+  border-radius: 0px;
+}
+
 .navbar .navbar-nav .nav-link, .dropdown-item{
   color: white; 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+}
+
+.icona {
+font-size: 1.7em;
+}
+
+.dropdown {
+  border: 0;
+}
+
+.custom-dropdown {
+  transform: translateX(-80px); /* Sposta il menu verso sinistra */
+}
+
+footer {
+  margin-top: 3em;
+}
+
+footer .col {
+  padding: 1em;
 }
 
 /* aggiungere classe div a destra */
@@ -17,6 +58,10 @@ header, .navbar, .dropdown-menu {
 
 
 /* seconda pagina */
+.title {
+  text-align: start;
+}
+
 .profile-box {
   max-width: 600px;
   margin: 50px auto;
@@ -45,6 +90,7 @@ header, .navbar, .dropdown-menu {
   font-weight: 600;
 }
 
-.editProfile {
+.rigaDown {
   border-bottom: 1px solid grey;
+  padding-bottom: 3em;
 }

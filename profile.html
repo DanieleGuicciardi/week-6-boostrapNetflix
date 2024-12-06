@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="assets/netflix_logo.png" alt="netflix_logo" width="150" height="70">
                 </a>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -46,45 +46,56 @@
     </header>
 
     <main>
-      <div class="profile-box">
-        <h1>Edit Profile</h1>
-          <div class="mb-3 text-center d-flex editProfile">
-            <img src="assets/avatar.png" class="mb-2" width="150" height="150">
-            <input type="text" class="form-control h-50 " placeholder="Epicoder #1">
+      <div class="container text-center">
+        <h1 class="title">Edit Profile</h1>
+        <div class="row d-flex">
+          <div class="col m-0">
+            <img src="assets/avatar.png">
+          </div>
+          <div class="col">
             
-            <div class="mb-3 ">
+            <!-- prima sezione -->
+            <div>
+              <input type="text" class="form-control h-50 " placeholder="Epicoder #1">
+            </div>
+
+            <div class="m-3 rigaDown">
               <label for="language" class="form-label p-3">Language:</label>
               <select class="form-select " id="language">
                 <option selected>English</option>
                 <option>Italiano</option>
                 <option>Español</option>
               </select>
-            </div>
-          </div>
+            </div> 
             
-          <div class="mb-3">
-            <label class="form-label">Maturity Settings:</label>
-            <button type="button" class="btn btn-secondary w-100 mb-2">ALL MATURITY RATINGS</button>
-            <p class="text-muted">Show titles of all maturity ratings for this profile.</p>
-            <button type="button" class="btn btn-secondary w-100">EDIT</button>
-          </div>
+            <!-- seconda sezione -->
+            <div class="m-3 rigaDown">
+              <p>Maturity Settings:</p>
+              <button type="button" class="btn btn-secondary w-100 mb-2">ALL MATURITY RATINGS</button>
+              <p>Show titles of all maturity ratings for this profile.</p>
+              <button type="button" class="btn btn-secondary w-100">EDIT</button>
+            </div>
 
-          <div class="checkbox-container">
-            <label class="form-check">
-              <input type="checkbox" class="form-check-input" checked>
-              Autoplay next episode in a series on all devices.
-            </label>
-            <label class="form-check">
-              <input type="checkbox" class="form-check-input" checked>
-              Autoplay previews while browsing on all devices.
-            </label>
+            <div class="rigaDown">
+              <label class="form-check">
+                <input type="checkbox" class="form-check-input" >
+                Autoplay next episode in a series on all devices.
+              </label>
+              <label class="form-check">
+                <input type="checkbox" class="form-check-input">
+                Autoplay previews while browsing on all devices.
+              </label>
+            </div>
+
+            
           </div>
-    
-          <div class="d-flex justify-content-between mt-4">
-            <button type="button" class="btn">SAVE</button>
-            <button type="button" class="btn">CANCEL</button>
-            <button type="button" class="btn">DELETE PROFILE</button>
-          </div>
+        </div>
+        
+        <div class="d-flex justify-content-between mt-4">
+          <button type="button" class="btn">SAVE</button>
+          <button type="button" class="btn">CANCEL</button>
+          <button type="button" class="btn">DELETE PROFILE</button>
+        </div>
       </div>
     </main>
 
